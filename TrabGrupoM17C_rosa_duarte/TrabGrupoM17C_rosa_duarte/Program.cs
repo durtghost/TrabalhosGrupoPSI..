@@ -10,6 +10,28 @@ namespace TrabGrupoM17C_rosa_duarte
     {
         static void Main(string[] args)
         {
+
+            int[] numeros = new int[10] { 5, 11, 1, 23, 5, 2, 9, 1, 8, 24 };
+
+            int indiceMaiorValor = 0;
+            int maiorValor = numeros[0];
+
+
+            for (int i = 1; i < numeros.Length; i++)
+            {
+
+                if (numeros[i] > maiorValor)
+                {
+                    maiorValor = numeros[i];
+                    indiceMaiorValor = i;
+
+                }
+            }
+
+
+            Console.WriteLine($"O maior valor é {maiorValor}, índice {indiceMaiorValor} ;)");
+
+            Console.ReadLine();
         }
     }
 }
