@@ -27,10 +27,10 @@ namespace TrabGrupoM17C_rosa_duarte
 
                 }
             }
-
+            
 
             Console.WriteLine($"O maior valor é {maiorValor}, índice {indiceMaiorValor} ;)");
-
+            Console.WriteLine("bOM DIA");
             Console.ReadLine();
         }
     }
