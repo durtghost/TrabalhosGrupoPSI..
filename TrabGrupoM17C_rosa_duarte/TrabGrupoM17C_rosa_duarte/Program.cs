@@ -16,6 +16,8 @@ namespace TrabGrupoM17C_rosa_duarte
             int indiceMaiorValor = 0;
             int maiorValor = numeros[0];
 
+            Console.WriteLine("maximo {1}.", maiorValor);
+            Console.WriteLine("indice {1}.", indiceMaiorValor);
 
             for (int i = 1; i < numeros.Length; i++)
             {
@@ -29,9 +31,11 @@ namespace TrabGrupoM17C_rosa_duarte
             }
 
 
-            Console.WriteLine("maximo {1}.", maiorValor);
-            Console.WriteLine("indice {1}.", indiceMaiorValor);
+            
+
             Console.WriteLine("Maior valor {0} e índice {1}.", indiceMaiorValor, maiorValor);
+
+
             Console.WriteLine("****************");
 
             Console.ReadLine();
