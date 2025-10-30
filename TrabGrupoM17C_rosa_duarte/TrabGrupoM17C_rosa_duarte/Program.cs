@@ -31,6 +31,8 @@ namespace TrabGrupoM17C_rosa_duarte
 
             Console.WriteLine("maximo {1}.", maiorValor);
             Console.WriteLine("indice {1}.", indiceMaiorValor);
+            Console.WriteLine("Maior valor {0} e índice {1}.", indiceMaiorValor, maiorValor);
+            Console.WriteLine("****************");
 
             Console.ReadLine();
         }
